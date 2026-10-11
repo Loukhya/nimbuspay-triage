@@ -1,0 +1,13 @@
+# Ignore data and datasets as requested by instructions
+candidate_pack/data/
+*.jsonl
+!predictions_test.jsonl
+
+# Ignore helper scripts
+audit.py
+clean_data.py
+generate_notebook.py
+cell9_fixed.py
+__pycache__/
+.ipynb_checkpoints/
+
